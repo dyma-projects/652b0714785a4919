@@ -1,0 +1,8 @@
+<hr />
+<h3>Composant Exercice 3</h3>
+<p *ngIf="status">p1</p>
+<p *ngIf="!status">p2</p>
+<div>
+  <button (click)="status = !status">Inverser valeur</button> Valeur de status:
+  {{ status }}
+</div>

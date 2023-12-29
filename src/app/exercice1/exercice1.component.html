@@ -1,0 +1,11 @@
+<hr />
+<h3>Composant Exercice 1</h3>
+<div>
+  <p>3 Exemples de liaisons:</p>
+  <input [type]="inputName" value="{{ inputNameByDefault }}" />
+  <p>
+    <button (click)="incrementeNumber()">Incremente</button> Resultat:
+    {{ number }}
+  </p>
+  <p><input type="text" [(ngModel)]="doubleBinding" /> {{ doubleBinding }}</p>
+</div>
